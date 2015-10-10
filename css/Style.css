@@ -2,38 +2,107 @@
 	Hoja de estilos para nuestra pagina web!
 */
 
-/*Id para la etiqueta body*/
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-#body{
+
+/* "text-decoretion" lo dejamos en none para que todos los botones en la pagina pierdan su estilo por defecto y así ahorrar lineas de código */
+a{
+	text-decoration: none;
+}
+
+/* ID para la etiqueta body, también conocida como la ID mas pobre y marginada de esta hoja de estilos XD */
+#Body{
 	background: #E9E5D3;
 }
-#bannerProperties{
-	border: solid;
-	border-color: red;
+
+/* ID's y clases para el encabezado */
+#Logo{
+	float: left;		/* Alinea la imagen a la derecha del siguiente componente dentro del HTML en este caso el título */
+	margin: 0px;		/* Valor 0 a todos los márgenes */
+	margin-top: 6px;	/* Separa la imagen de la punta de la página */
+	margin-left: 4px;	/* Recorre la imagen desde el margen izquierdo */
+	width: 60px;		/* Cambia la dimención de la imagen ya que el tamaño por defecto es muy grande */
+	height: 60px;		/* Cambia la dimención de la imagen ya que el tamaño por defecto es muy grande */
 }
 
-/*Id para la Unorganized l\List de la barra de navegación*/
-#navigationBar{
-	float: right;
-	margin-bottom: 100px;
+.Title{
+	margin: 0px;		/* Márgenes a 0 */
+	margin-left: 80px;	/* Alineación de los textos del encabezado */
+	color: #346E71;		/* Color para el texto */
+	font-family: 'Open Sans', sans-serif; /* Cambio del estilo de fuente */
+	font-weight: 400;	/* Grosor de fuente de letra */
 }
 
-#navigationBar ul li{
-	display: inline-block;
-	text-align:;
+#ExtraTitle{
+	float: left;		/* Coloca este texto a la izquierda del ssiguiente componente dentro del HTML en este caso la barra de navegación */
+	margin: 0px;		/* Márgenes a 0 */
+	margin-left: 18px;	/* Alineación de los textos del encabezado */
+	color: #346E71;		/* Color para el texto */
+	font-size: 20px;	/* Disminución de texto para que el encabezado luszca mejor */
+	font-family: 'Open Sans', sans-serif; /* Cambio del estilo de fuente */
+	font-weight: 300;	/* Grosor de fuente de letra */
 }
 
-.title h1{
-	margin: 0px;
+/* ID's y clases para la barra de navegación */
+#NavigationBar{
+	margin: 0px;		/* Márgenes a 0 */
+	margin-left: 800px;	/* Recorre la barra de navegación a la derecha */
+}
+
+#NavigationBar ul li{
+	display: inline-block; /* Ajusta la barra de navegación de forma horizontal */
+}
+
+#NavigationBar ul li a{
+	color: #346E71;		/* Color para el texto */
+	font-family: 'Open Sans', sans-serif; /* Cambio del estilo de fuente */
+	font-weight: 300;	/* Grosor de fuente de letra */
+	padding-right: 10px; /* Ajuste del padding entre los botones de la barra de navegación */
+	padding-left: 10px;
+	padding-top: 4;
+	padding-bottom: 2;
+}
+
+/* Esta sección de esta ID es exactamente igual a la anterior, simplemente cambia valores para crear una animación al hacer hover */
+#NavigationBar ul li a:hover{
 	color: #346E71;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
+	padding-right: 14px;
+	padding-left: 14px;
+	padding-top: 4;
+	padding-bottom: 2;
+	border-radius: 6px;
+	border-color: #002536;
+	border: solid;
 }
 
-a{
-	text-decoration: none;
+#BannerProperties{
+	padding-right: 350px;
+	padding-left: 350px;
+	padding-bottom: 154px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	background-image: url(../images/banner.png);
+	position: relative;
+}
+
+.Article{
+	margin-right: 500;
+	margin-left: 300;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.Article h2{
+	font-weight: 400;
+	color: #002535;
+}
+
+.Article p{
+	font-weight: 300;
+	color: #346E71;
 }
