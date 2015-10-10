@@ -1,1 +1,39 @@
-//Hoja de estilos css
+/*
+	Hoja de estilos para nuestra pagina web!
+*/
+
+/*Id para la etiqueta body*/
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#body{
+	background: #E9E5D3;
+}
+#bannerProperties{
+	border: solid;
+	border-color: red;
+}
+
+/*Id para la Unorganized l\List de la barra de navegación*/
+#navigationBar{
+	float: right;
+	margin-bottom: 100px;
+}
+
+#navigationBar ul li{
+	display: inline-block;
+	text-align:;
+}
+
+.title h1{
+	margin: 0px;
+	color: #346E71;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+a{
+	text-decoration: none;
+}
