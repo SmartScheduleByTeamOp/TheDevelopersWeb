@@ -1,7 +1,35 @@
 /*
 	Hoja de estilos para nuestra pagina web!
 */
+.social ul{
+	float: right; 
+	list-style: none;
+	margin-right: 230px;
 
+}
+.social ul li {
+	display: inline-block;
+	margin-right: 0px;
+}	
+.social ul li a{
+	padding: 10px 30px;
+	color: white;
+	background: black;
+	-webkit-transition:all 600ms ease;
+	-o-transition:all 600ms ease;
+	transition:all 600ms ease;
+	border-radius: 360px;
+}
+
+.social ul li .icon-facebook:hover{
+	color: #3b5998;
+}
+.social ul li .icon-google-plus:hover{
+	color: #d85232;
+}
+.social ul li .icon-twitter:hover{
+	color: #00abf0;
+}
 * {
 	margin: 0%;
 	padding: 0%;
