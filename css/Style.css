@@ -3,8 +3,8 @@
 */
 
 * {
-	margin: 0px;
-	padding: 0px;
+	margin: 0%;
+	padding: 0%;
   	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -22,28 +22,28 @@ body{
 
 .Head{
 	background: linear-gradient(180deg, #000D24, #002536);
-	padding-right: 16px;
-	padding-left: 16px;
-	padding-top: 32px;
-	padding-bottom: 28px;
+	padding-right: 0%;
+	padding-left: 0%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 /* ID's y clases para el encabezado */
 #Logo{
 	float: left;		/* Alinea la imagen a la derecha del siguiente componente dentro del HTML en este caso el título */
-	margin: 0px;		/* Valor 0 a todos los márgenes */
-	margin-top: 0px;	/* Separa la imagen de la punta de la página */
-	margin-bottom: 8px;
-	margin-left: 4px;	/* Recorre la imagen desde el margen izquierdo */
-	width: 90px;		/* Cambia la dimención de la imagen ya que el tamaño por defecto es muy grande */
-	height: 90px;		/* Cambia la dimención de la imagen ya que el tamaño por defecto es muy grande */
+	margin: 0%;		/* Valor 0 a todos los márgenes */
+	margin-top: 0%;	/* Separa la imagen de la punta de la página */
+	margin-bottom: 0.6%;
+	margin-left: 0.4%;	/* Recorre la imagen desde el margen izquierdo */
+	width: 7%;		/* Cambia la dimención de la imagen ya que el tamaño por defecto es muy grande */
+	height: 8%;		/* Cambia la dimención de la imagen ya que el tamaño por defecto es muy grande */
 }
 
 .Title{
-	margin: 0px;		/* Márgenes a 0 */
-	margin-right: 964px; 
-	margin-left: 110px;	/* Alineación de los textos del encabezado */
-	margin-top: 10px;
+	margin: 0%;		/* Márgenes a 0 */
+	margin-right: 72.8%; 
+	margin-left: 8%;	/* Alineación de los textos del encabezado */
+	margin-top: 0.4%;
 	border-bottom: solid;
 	border-color:  #E9E5D3;
 	color: #E9E5D3;		/* Color para el texto */
@@ -53,17 +53,16 @@ body{
 
 #ExtraTitle{
 	float: left;		/* Coloca este texto a la izquierda del ssiguiente componente dentro del HTML en este caso la barra de navegación */
-	margin-left: 16px;	/* Alineación del texto */
+	margin-left: 0.6%;	/* Alineación del texto */
 	color: #E9E5D3;		/* Color para el texto */
-	font-size: 20px;	/* Disminución de texto para que el encabezado luszca mejor */
+	font-size: 130%;	/* Disminución de texto para que el encabezado luszca mejor */
 	font-family: 'Open Sans', sans-serif; /* Cambio del estilo de fuente */
 	font-weight: 400;	/* Grosor de fuente de letra */
 }
 
 /* ID's y clases para la barra de navegación */
 #NavigationBar{
-	margin: 0px;	/* Márgenes a 0 */
-	margin-left: 800px;	/* Recorre la barra de navegación a la derecha */
+	margin-left: 64%;	/* Recorre la barra de navegación a la derecha */
 }
 
 #NavigationBar ul li{
@@ -74,24 +73,24 @@ body{
 	color: #E9E5D3;		/* Color para el texto */
 	font-family: 'Open Sans', sans-serif; /* Cambio del estilo de fuente */
 	font-weight: 300;	/* Grosor de fuente de letra */
-	padding-right: 10px; /* Ajuste del padding entre los botones de la barra de navegación */
-	padding-left: 10px;
-	padding-top: 4;
-	padding-bottom: 2;
+	padding-right: 8%; /* Ajuste del padding entre los botones de la barra de navegación */
+	padding-left: 8%;
 }
 
 /* Esta sección de esta ID es exactamente igual a la anterior, simplemente cambia valores para crear una animación al hacer hover */
 #NavigationBar ul li a:hover{
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 	color: #E9E5D3;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	padding-right: 14px;
-	padding-left: 14px;
-	padding-top: 4;
-	padding-bottom: 2;
-	border-radius: 6px;
+	padding-right: 10%;
+	padding-left: 10%;
+	border-radius: 8%;
 	border-color: #002536;
-	border: solid;
+	border-bottom: solid;
+	
 }
 
 .Article{
@@ -102,8 +101,10 @@ body{
 
 .Article h3{
 	font-weight: 700;
-	font-size: 30px;
-	color: #13213A;
+	font-size: 150%;
+ 	background: -webkit-gradient(linear, left top, left bottom, from(#000D24), to(#002536));  
+	-webkit-background-clip: text;  
+ 	-webkit-text-fill-color: transparent;  
 }
 
 .Article p{
