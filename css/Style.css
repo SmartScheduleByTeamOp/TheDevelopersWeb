@@ -1,35 +1,7 @@
 /*
 	Hoja de estilos para nuestra pagina web!
 */
-.social ul{
-	float: right; 
-	list-style: none;
-	margin-right: 230px;
 
-}
-.social ul li {
-	display: inline-block;
-	margin-right: 0px;
-}	
-.social ul li a{
-	padding: 10px 30px;
-	color: white;
-	background: black;
-	-webkit-transition:all 600ms ease;
-	-o-transition:all 600ms ease;
-	transition:all 600ms ease;
-	border-radius: 360px;
-}
-
-.social ul li .icon-facebook:hover{
-	color: #3b5998;
-}
-.social ul li .icon-google-plus:hover{
-	color: #d85232;
-}
-.social ul li .icon-twitter:hover{
-	color: #00abf0;
-}
 * {
 	margin: 0%;
 	padding: 0%;
@@ -88,6 +60,38 @@ body{
 	font-weight: 400;	/* Grosor de fuente de letra */
 }
 
+.social ul{
+	float: right; 
+	list-style: none;
+	margin-right: 16%;
+
+}
+.social ul li {
+	display: inline-block;
+	margin-right: 0%;
+}	
+.social ul li a{
+	padding: 8px 30px;
+	color: white;
+	background: black;
+	-webkit-transition:all 600ms ease;
+	-o-transition:all 600ms ease;
+	transition:all 600ms ease;
+	border-radius: 360px;
+}
+
+.social ul li .icon-facebook:hover{
+	color: #3b5998;
+}
+
+.social ul li .icon-google-plus:hover{
+	color: #d85232;
+}
+
+.social ul li .icon-twitter:hover{
+	color: #00abf0;
+}
+
 /* ID's y clases para la barra de navegación */
 #NavigationBar{
 	margin-left: 64%;	/* Recorre la barra de navegación a la derecha */
@@ -113,8 +117,6 @@ body{
 	color: #E9E5D3;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	padding-right: 10%;
-	padding-left: 10%;
 	border-radius: 8%;
 	border-color: #002536;
 	border-bottom: solid;
